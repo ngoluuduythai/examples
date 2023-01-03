@@ -24,10 +24,10 @@
     "b4a": "^1.6.1",
     "corestore": "^6.4.0",
     "debounceify": "^1.0.0",
-    "graceful-goodbye": "^1.1.0",
+    "graceful-goodbye": "^1.2.0",
     "hyperbee": "^2.2.0",
     "hypercore": "^10.5.3",
-    "hyperdrive": "^11.0.0-alpha.9",
+    "hyperdrive": "^11.0.0-alpha.10",
     "hyperswarm": "^4.3.5",
     "localdrive": "github:holepunchto/localdrive"
   }
