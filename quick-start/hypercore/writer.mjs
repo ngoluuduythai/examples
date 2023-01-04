@@ -11,6 +11,7 @@ const core = new Hypercore('./writer-storage')
 // core.key and core.discoveryKey will only be set after core.ready resolves
 await core.ready()
 console.log('hypercore key:', b4a.toString(core.key, 'hex'))
+console.log('discoveryKey:', b4a.toString(core.discoveryKey, 'hex'))
 
 // Append all stdin data as separate blocks to the core
 process.stdin.on('data', data => core.append(data))
